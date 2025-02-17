@@ -1,1 +1,2 @@
 # TickHabit-API
+To realize integration between two task managers via API in order to automatically create and execute tasks in one of them (for example, Task Manager B), when the user creates tasks via GUI in the other one (Task Manager A), you can follow the following algorithm. Make a sheadulator, which once a day on the computer will be triggered and access first to tick-tick and see what has been done for the day and distill them to habitica. You have to write a python script to distill the data.
